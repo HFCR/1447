@@ -1,0 +1,992 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Created>2003-10-16T14:01:54Z</Created>
+  <LastSaved>2007-03-01T07:28:25Z</LastSaved>
+  <Version>10.2625</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <DownloadComponents/>
+  <RemovePersonalInformation/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>11640</WindowHeight>
+  <WindowWidth>15480</WindowWidth>
+  <WindowTopX>120</WindowTopX>
+  <WindowTopY>60</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s21">
+   <Borders/>
+   <Font ss:Bold="1"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s22">
+   <Borders/>
+   <Font ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s23">
+   <Interior/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="3" ss:ExpandedRowCount="136" x:FullColumns="1"
+   x:FullRows="1">
+   <Column ss:AutoFitWidth="0" ss:Width="268.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="198"/>
+   <Column ss:AutoFitWidth="0" ss:Width="217.5"/>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Key</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">English</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Levelcis1</Data></Cell>
+    <Cell><Data ss:Type="String">Mixer's Fortress</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Levelcis2</Data></Cell>
+    <Cell><Data ss:Type="String">Forgotten Grotto</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Levelcis3</Data></Cell>
+    <Cell><Data ss:Type="String">The Plateau</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Levelcis4</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Warriors' Village</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Multiplayer</Data></Cell>
+    <Cell><Data ss:Type="String">Play Online</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Mpcovrs</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Grunt</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">MpSnpr</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Sniper</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">MpAnka</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Anka</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">cis_allweap_camp</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Normal game, all weapons available</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">RailbowOnly_camp</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Bow and arrows only</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">InstaGib_camp</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Bow and arrows, one-hit-frag</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">cis_ciscampaign</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Play Far Cry: Return</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">cis_fccampaign</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Play Far Cry campaign</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_txt_svfilter</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Server list filter</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_txt_notempty</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Not empty</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_txt_notfull</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Not full</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_txt_hitrefresh</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Hit refresh to accept filter</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_favorites</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Favorites</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">world_register</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">REGISTER NEWBIE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">world_beginadventure</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Begin Adventure</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">world_continueadventure</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Continue Adventure</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">world_backpackpass</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Enter the pasword of your equipment:</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">world_backpackpass_new</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Create a password for your equipment:</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_all</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">All</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">G11</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">H&amp;K G11</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Chaingun</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Chaingun</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">world_profile_refuse</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Someone already has this equipment. Create a different password\nfor your own equipment,</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">mut_txt</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">MUTATED</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">p_karma</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">KARMA:</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">CIS_PREWAR</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Warm-up. Waiting for more players.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">buy_main</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">1. Basic weapons\n2. Shotguns\n3. SMGS\n4. Rifles\n5. Heavy weapons\n6. Special equipment</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Skimpy</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Skimpy</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">su_villtmsg</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Purse sign means: PRESS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">su_villtmsg2</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">to open the BUY MENU.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_estore</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Equipment Store</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">NoteLetter</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Note</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">HeliTime</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Heli arrives in (min)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">su_villdown</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Survivor down!</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">su_youlose</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Defenders lose!</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">su_youwin</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Victory!</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_earned</Data></Cell>
+    <Cell><Data ss:Type="String">EARNED</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">su_villfmsg</Data></Cell>
+    <Cell><Data ss:Type="String">Press USE to lead or stay the villager here.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">su_bonus_b</Data></Cell>
+    <Cell><Data ss:Type="String">$1+BONUS BINOCULARS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">su_bonus_h</Data></Cell>
+    <Cell><Data ss:Type="String">$1+BONUS MEDKIT</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">SU_handicapping</Data></Cell>
+    <Cell><Data ss:Type="String">Bonus of monsters</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">su_morethanten</Data></Cell>
+    <Cell><Data ss:Type="String">Additional monster quantity can't be larger than 10!</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">su_ui_roundlimit</Data></Cell>
+    <Cell><Data ss:Type="String">Round Limit</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_scorelimit1</Data></Cell>
+    <Cell><Data ss:Type="String">Score Limit</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cek</Data></Cell>
+    <Cell><Data ss:Type="String">You have found a secret</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">botpresence</Data></Cell>
+    <Cell><Data ss:Type="String">Maximum number of\nSUSTAINED players/bots:</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_allweap</Data></Cell>
+    <Cell><Data ss:Type="String">All weapons</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RailbowOnly</Data></Cell>
+    <Cell><Data ss:Type="String">Only Bow</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">InstaGib</Data></Cell>
+    <Cell><Data ss:Type="String">Bow, one-hit-frag</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Bow</Data></Cell>
+    <Cell><Data ss:Type="String">Bow</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_offer</Data></Cell>
+    <Cell><Data ss:Type="String">Offer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_bquota</Data></Cell>
+    <Cell><Data ss:Type="String">Maximum bots</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">1.</Data></Cell>
+    <Cell><Data ss:Type="String">1.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">buy_back</Data></Cell>
+    <Cell><Data ss:Type="String">Back to menu</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">buy_heavy</Data></Cell>
+    <Cell><Data ss:Type="String">Heavy weapons</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_istrader</Data></Cell>
+    <Cell><Data ss:Type="String">Trader</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_adt10</Data></Cell>
+    <Cell><Data ss:Type="String">ADT10 (Automatic\n turret)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_su_buyhint</Data></Cell>
+    <Cell><Data ss:Type="String">Use front number keys or numeric keyboard keys to choose equipment you want to buy.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_game_help</Data></Cell>
+    <Cell><Data ss:Type="String">Read briefing</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_FFA_help_1</Data></Cell>
+    <Cell><Data ss:Type="String">The rules are simple: frag everyone to earn as many frags (points) as possible.\nTo add computer-controlled players (bots), open VOTE PANEL\nand set the desired minimum bot quota.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_FFAPRO_help_1</Data></Cell>
+    <Cell><Data ss:Type="String">The rules are simple: frag everyone to earn as many frags (points) as possible.\nAlien suit allows players to jump and sprint without getting fatigued, and\nkeeps weapon accuracy even during faster movement.\nTo add computer-controlled players (bots), open VOTE PANEL\nand set the desired minimum bot quota.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_bdiff</Data></Cell>
+    <Cell><Data ss:Type="String">AI Difficulty</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_becomedefender</Data></Cell>
+    <Cell><Data ss:Type="String">Join Defenders</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">LevelInferno1</Data></Cell>
+    <Cell><Data ss:Type="String">Inferno Trilogy - 1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">LevelInferno2</Data></Cell>
+    <Cell><Data ss:Type="String">Inferno Trilogy - 2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">LevelInferno3</Data></Cell>
+    <Cell><Data ss:Type="String">Inferno Trilogy - 3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Levelexpedition</Data></Cell>
+    <Cell><Data ss:Type="String">Off-Road Expedition</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_norl</Data></Cell>
+    <Cell><Data ss:Type="String">Deny RLs</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Levelcis_stadium</Data></Cell>
+    <Cell><Data ss:Type="String">Stadium</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Crowbar</Data></Cell>
+    <Cell><Data ss:Type="String">Crow-bar</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_t_pl</Data></Cell>
+    <Cell><Data ss:Type="String">Total players:</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_f_pl</Data></Cell>
+    <Cell><Data ss:Type="String">In this list:</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_m_pl</Data></Cell>
+    <Cell><Data ss:Type="String">playing this mod:</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_nobots</Data></Cell>
+    <Cell><Data ss:Type="String">Deny\nBots</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_unlistedmap</Data></Cell>
+    <Cell><Data ss:Type="String">$4Vote-casted map isn't present in Map List of server!</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_local</Data></Cell>
+    <Cell><Data ss:Type="String">Local</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_global</Data></Cell>
+    <Cell><Data ss:Type="String">Global</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_nomaplist</Data></Cell>
+    <Cell><Data ss:Type="String">Specified maplist is not present.\nCreate the following maplist file in this mod folder:\n</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">VotePan</Data></Cell>
+    <Cell><Data ss:Type="String">VOTE BOARD</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_soccerhint</Data></Cell>
+    <Cell><Data ss:Type="String">It's C.I. version of traditional soccer. To kick the ball, use Fire button.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">plantexpl</Data></Cell>
+    <Cell><Data ss:Type="String">Press USE to plant the explosive.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_backpack</Data></Cell>
+    <Cell><Data ss:Type="String">Backpack</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_quicksave</Data></Cell>
+    <Cell><Data ss:Type="String">Flash Disk (quick save)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_sil_onoff</Data></Cell>
+    <Cell><Data ss:Type="String">Silencer (attach/detach)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_b_watch</Data></Cell>
+    <Cell><Data ss:Type="String">Watch (watch)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_aliensuit</Data></Cell>
+    <Cell><Data ss:Type="String">Alien suit</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_kevlarhelm</Data></Cell>
+    <Cell><Data ss:Type="String">Kevlar Helmet</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis2_nopow</Data></Cell>
+    <Cell><Data ss:Type="String">FUSE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">ReadHdiary1</Data></Cell>
+    <Cell><Data ss:Type="String">Hermit's Diary</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_medpack</Data></Cell>
+    <Cell><Data ss:Type="String">MedKit</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis5_jcan</Data></Cell>
+    <Cell><Data ss:Type="String">Gas</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_wrtool</Data></Cell>
+    <Cell><Data ss:Type="String">Wrench (draw)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_scuba</Data></Cell>
+    <Cell><Data ss:Type="String">Scuba Gear</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_creditcard</Data></Cell>
+    <Cell><Data ss:Type="String">Plastic card MonsterCard</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_r_lastlaptime</Data></Cell>
+    <Cell><Data ss:Type="String">Last lap time:</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_r_laps</Data></Cell>
+    <Cell><Data ss:Type="String">Laps</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_r_laptime</Data></Cell>
+    <Cell><Data ss:Type="String">Last lap</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_slowliness</Data></Cell>
+    <Cell><Data ss:Type="String">Slowness</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_RACING_help_1</Data></Cell>
+    <Cell><Data ss:Type="String">Follow the road checkpoints at maximum speed possible,\nstriving to be the first.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">su_racing_roundlimit</Data></Cell>
+    <Cell><Data ss:Type="String">Laps limit</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cs_backpackhint</Data></Cell>
+    <Cell><Data ss:Type="String">To open/close your backpack, use special key</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_qv_followme</Data></Cell>
+    <Cell><Data ss:Type="String">Follow me.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_qv_holdpos</Data></Cell>
+    <Cell><Data ss:Type="String">Hold your position.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">race_lap</Data></Cell>
+    <Cell><Data ss:Type="String">lap!</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">race_fin</Data></Cell>
+    <Cell><Data ss:Type="String">$1finished</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">race_tr_ready</Data></Cell>
+    <Cell><Data ss:Type="String">Ready?</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">race_tr_set</Data></Cell>
+    <Cell><Data ss:Type="String">Set.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">race_tr_go</Data></Cell>
+    <Cell><Data ss:Type="String">Go!</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_qv_underattack</Data></Cell>
+    <Cell><Data ss:Type="String">Under attack!</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_qv_needbackup</Data></Cell>
+    <Cell><Data ss:Type="String">Need backup!</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_qv_affirmative</Data></Cell>
+    <Cell><Data ss:Type="String">Affirmative.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_qv_comeon</Data></Cell>
+    <Cell><Data ss:Type="String">Come on!</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_qv_coverme</Data></Cell>
+    <Cell><Data ss:Type="String">Cover me.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_qv_goleft</Data></Cell>
+    <Cell><Data ss:Type="String">Go Left.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_qv_goright</Data></Cell>
+    <Cell><Data ss:Type="String">Go Right.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_qv_pullback</Data></Cell>
+    <Cell><Data ss:Type="String">Retreat!</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_qv_goobj</Data></Cell>
+    <Cell><Data ss:Type="String">Defend the objective.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_qv_susecure</Data></Cell>
+    <Cell><Data ss:Type="String">Secure the survivors.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">su_rep_chm</Data></Cell>
+    <Cell><Data ss:Type="String">If you want to repair it, keep pressing</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">su_rep_draw</Data></Cell>
+    <Cell><Data ss:Type="String">Press 'Use' to draw your wrench to repair it.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_qv_giveup</Data></Cell>
+    <Cell><Data ss:Type="String">Give up, buddy!</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_qv_illtakeudown</Data></Cell>
+    <Cell><Data ss:Type="String">I'll take you down!</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_qv_ugotnothingonme</Data></Cell>
+    <Cell><Data ss:Type="String">You got nothing on me!</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_qv_ulikethat</Data></Cell>
+    <Cell><Data ss:Type="String">You like that?</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_qv_yeahyeah</Data></Cell>
+    <Cell><Data ss:Type="String">Yeah! Yeah!</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Gest_InPos</Data></Cell>
+    <Cell><Data ss:Type="String">Gesture - In Position / Roam</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Gest_Wait</Data></Cell>
+    <Cell><Data ss:Type="String">Gesture - Wait / Hey</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Gest_LeftAdv</Data></Cell>
+    <Cell><Data ss:Type="String">Gesture - Get Moving</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Gest_Stick</Data></Cell>
+    <Cell><Data ss:Type="String">Gesture - Stick Together / Team</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_teamtalk</Data></Cell>
+    <Cell><Data ss:Type="String">Communication</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_gs_hardcore</Data></Cell>
+    <Cell><Data ss:Type="String">$3Hardcore</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_gs_extreme</Data></Cell>
+    <Cell><Data ss:Type="String">$8Extreme</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_gs_unreal</Data></Cell>
+    <Cell><Data ss:Type="String">$2Unreal</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_gs_stunt</Data></Cell>
+    <Cell><Data ss:Type="String">$5Stunt</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_gs_crazy</Data></Cell>
+    <Cell><Data ss:Type="String">$7CrazyCry</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_gs_classic</Data></Cell>
+    <Cell><Data ss:Type="String">$1Classic</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">SpecialOption</Data></Cell>
+    <Cell><Data ss:Type="String">Backpack / Communication menu</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_thismodonly</Data></Cell>
+    <Cell><Data ss:Type="String">Show only</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_allservers</Data></Cell>
+    <Cell><Data ss:Type="String">Show all servers</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">press_and_pickup</Data></Cell>
+    <Cell><Data ss:Type="String">Press 'Use' to grab the item.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_choosecamptxt</Data></Cell>
+    <Cell><Data ss:Type="String">Choose campaign or standalone map you want to play, and weapon mode:</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis1_announcer_tied</Data></Cell>
+    <Cell><Data ss:Type="String">$1ANNOUNCER: TIED FOR THE LEAD!</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis1_announcer_finish</Data></Cell>
+    <Cell><Data ss:Type="String">$1ANNOUNCER: MATCH FINISHED. SKIMPY WINS! LET'S MEET IN FINAL GAME AFTER THE WEEKENDS!</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_soccer_offside</Data></Cell>
+    <Cell><Data ss:Type="String">Touch-line cross!</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_soccer_goalkick</Data></Cell>
+    <Cell><Data ss:Type="String">team performs goal kick.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_soccer_cornerkick</Data></Cell>
+    <Cell><Data ss:Type="String">team performs corner kick.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_soccer_blueteam</Data></Cell>
+    <Cell><Data ss:Type="String">($5Blue$1)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_soccer_redteam</Data></Cell>
+    <Cell><Data ss:Type="String">($4Red$1)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_soccer_owned</Data></Cell>
+    <Cell><Data ss:Type="String">- Own goal!</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_soccer_throw</Data></Cell>
+    <Cell><Data ss:Type="String">team throws the ball in.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_soccer_goal</Data></Cell>
+    <Cell><Data ss:Type="String">Goal -</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">CharSetup</Data></Cell>
+    <Cell><Data ss:Type="String">Change Character</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">AK74</Data></Cell>
+    <Cell><Data ss:Type="String">AK74</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">World_Buy</Data></Cell>
+    <Cell><Data ss:Type="String">Buy:</Data></Cell>
+   </Row>
+      <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">WORLD_GetSomeJob</Data></Cell>
+    <Cell><Data ss:Type="String">Get a job here</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_holdable_invisibility</Data></Cell>
+    <Cell><Data ss:Type="String">Invisibility Gear</Data></Cell>
+   </Row>
+      <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_holdable_invis_use</Data></Cell>
+    <Cell><Data ss:Type="String">Invisibility Gear (Turn On)</Data></Cell>
+   </Row>
+      <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_mismod</Data></Cell>
+    <Cell><Data ss:Type="String">Mod version does not match server version\nplease check</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_mismod2</Data></Cell>
+    <Cell><Data ss:Type="String">\nto get the latest version of mod.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">su_obj_att</Data></Cell>
+    <Cell><Data ss:Type="String">Object Attacked!</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">su_call_help1</Data></Cell>
+    <Cell><Data ss:Type="String">Anybody... help!</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">su_call_help2</Data></Cell>
+    <Cell><Data ss:Type="String">Help... help!</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">su_call_help3</Data></Cell>
+    <Cell><Data ss:Type="String">I'm under attack!</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_chess_pawn</Data></Cell>
+    <Cell><Data ss:Type="String">Pawn</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_chess_rook</Data></Cell>
+    <Cell><Data ss:Type="String">Rook</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_chess_knight</Data></Cell>
+    <Cell><Data ss:Type="String">Knight</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_chess_bishop</Data></Cell>
+    <Cell><Data ss:Type="String">Bishop</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_chess_queen</Data></Cell>
+    <Cell><Data ss:Type="String">Queen</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_chess_king</Data></Cell>
+    <Cell><Data ss:Type="String">King</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">NoFatigue</Data></Cell>
+    <Cell><Data ss:Type="String">No Fatigue</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">gt_FFA</Data></Cell>
+    <Cell><Data ss:Type="String">Free For All</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">gt_HUNT</Data></Cell>
+    <Cell><Data ss:Type="String">Hunt</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_mutant_device</Data></Cell>
+    <Cell><Data ss:Type="String">Mutant Backpack</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">ret_cloak_refractive</Data></Cell>
+    <Cell><Data ss:Type="String">GO REFRACTIVE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">ret_cloak_visible</Data></Cell>
+    <Cell><Data ss:Type="String">GO VISIBLE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">gt_TDM</Data></Cell>
+    <Cell><Data ss:Type="String">Team Deathmatch</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">gt_ASSAULT</Data></Cell>
+    <Cell><Data ss:Type="String">Assault</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">gt_CTF</Data></Cell>
+    <Cell><Data ss:Type="String">Capture the Flag</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">gt_RACING</Data></Cell>
+    <Cell><Data ss:Type="String">Car Racing</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">gt_SOCCER</Data></Cell>
+    <Cell><Data ss:Type="String">Luke SW</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">gt_SURVIVAL</Data></Cell>
+    <Cell><Data ss:Type="String">Survival</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">gt_WORLD</Data></Cell>
+    <Cell><Data ss:Type="String">WORLD</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">gt_COOP</Data></Cell>
+    <Cell><Data ss:Type="String">Cooperative</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">chess_yes</Data></Cell>
+    <Cell><Data ss:Type="String">Yes.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">chess_no</Data></Cell>
+    <Cell><Data ss:Type="String">No.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">chess_wrong</Data></Cell>
+    <Cell><Data ss:Type="String">Wrong.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">chess_correcting</Data></Cell>
+    <Cell><Data ss:Type="String">Correcting now.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">chess_yourmove</Data></Cell>
+    <Cell><Data ss:Type="String">Your move.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">KnifeMash</Data></Cell>
+    <Cell><Data ss:Type="String">Quick knife hit</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">chess_checkmate</Data></Cell>
+    <Cell><Data ss:Type="String">Mate!</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">chess_castle</Data></Cell>
+    <Cell><Data ss:Type="String">Making castle.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">chess_thisboard</Data></Cell>
+    <Cell><Data ss:Type="String">This board.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">chess_funny</Data></Cell>
+    <Cell><Data ss:Type="String">Cool.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_COOP_help_1</Data></Cell>
+    <Cell><Data ss:Type="String">Walk through singleplayer campaign with your mates.\nCurrent goal is shown in scores tab.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_ReachEnd</Data></Cell>
+    <Cell><Data ss:Type="String">FINISHING THE LEVEL.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_coop_goto</Data></Cell>
+    <Cell><Data ss:Type="String">Press 'Use' to go to the next map:</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_itemresptime</Data></Cell>
+    <Cell><Data ss:Type="String">Items respawn time (sec):</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_coopammomult</Data></Cell>
+    <Cell><Data ss:Type="String">Starting ammo amount (packs):</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RentHouse</Data></Cell>
+    <Cell><Data ss:Type="String">Rent this apartment for</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_phone</Data></Cell>
+    <Cell><Data ss:Type="String">Radio</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_phone_hint</Data></Cell>
+    <Cell><Data ss:Type="String">Draw the radio from backpack to command your squad.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_grabb_hint</Data></Cell>
+    <Cell><Data ss:Type="String">You can grab and move items.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_eat_hint</Data></Cell>
+    <Cell><Data ss:Type="String">You can eat and drink.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_tab_hint</Data></Cell>
+    <Cell><Data ss:Type="String">Press [TAB] to check your objectives.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_send</Data></Cell>
+    <Cell><Data ss:Type="String">Go there -</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_radio_back</Data></Cell>
+    <Cell><Data ss:Type="String">Put the radio into backpack</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">ShotgunDB</Data></Cell>
+    <Cell><Data ss:Type="String">SB Shotgun</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_voted_yes</Data></Cell>
+    <Cell><Data ss:Type="String">Yes:</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_voted_no</Data></Cell>
+    <Cell><Data ss:Type="String">No:</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_vote_no</Data></Cell>
+    <Cell><Data ss:Type="String">Vote No</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_vote_yes</Data></Cell>
+    <Cell><Data ss:Type="String">Vote Yes</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_vote_hint</Data></Cell>
+    <Cell><Data ss:Type="String">Hit ESC key and vote YES or NO</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_vote_restartmap</Data></Cell>
+    <Cell><Data ss:Type="String">Restart map</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">VoteWasCalld2</Data></Cell>
+    <Cell><Data ss:Type="String">Vote called by</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_bleeding</Data></Cell>
+    <Cell><Data ss:Type="String">Realistic wounds</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">cis_vote_kick</Data></Cell>
+    <Cell><Data ss:Type="String">Kick player:</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <PageMargins x:Bottom="0.984251969" x:Left="0.78740157499999996"
+     x:Right="0.78740157499999996" x:Top="0.984251969"/>
+   </PageSetup>
+   <Selected/>
+   <TopRowVisible>90</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>135</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet2">
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <PageMargins x:Bottom="0.984251969" x:Left="0.78740157499999996"
+     x:Right="0.78740157499999996" x:Top="0.984251969"/>
+   </PageSetup>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet3">
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <PageMargins x:Bottom="0.984251969" x:Left="0.78740157499999996"
+     x:Right="0.78740157499999996" x:Top="0.984251969"/>
+   </PageSetup>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

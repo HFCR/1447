@@ -1,0 +1,45 @@
+function Mission:Event_SightRange_1_Set() -- KoTimon -- Эта функция и функция сброса - только на одну группу мерков. Для других групп, тупо копируешь обе функции и меняешь пордковый номер.
+	local Mercs = {"MercCover19","MercCover22323","MercCover32222"} -- Шо шаблону - через запятую и в кавычках указываешь имена всех необходимых наёмников.
+	for i,Merc in Mercs do -- Извлечь данные из очередной ячейки таблицы "Mercs" и записать их в переменную "Merc".
+		local entity = System:GetEntityByName(Merc) -- По названию сущности, её имени - найти в игровом мире.
+		if entity and entity.type=="Player" and BasicPlayer.IsAlive(entity) and not entity.NewSightRangeMultiplier then -- Если сущность существует, она - разумное существо и оно живо.
+			-- entity:ChangeAIParameter(AIPARAM_SIGHTRANGE,1) -- Сменить у сущности расстояние видимости на...
+			entity.NewSightRangeMultiplier = .1 -- Множитель динамической дальности видимости (function BasicAI:SetAccuracy()).
+			if entity.NewSightRangeMultiplier==1 then
+				Mission:Event_SetSightRange_Reset()
+				return
+			end
+			-- Чтобы уменьшить текущую дальность видимости, пишешь в пределах от 0, до 1 (при бо'льших числах, дальность видимости будет расти).
+			-- К примеру, при написании .5 - это будет всё равно, что исходную дальность видимости (около 110) разделить на 50 процентов: 110*.5 = 55;
+			-- при .1 - это будет значить, что от исходной дальности видимости будет отнято большинство - 90 процентов: 110*.1 = 11;
+			-- при .9 - 10 процентов: 110*.9 = 99;
+			-- Множитель может выглядеть по разному: .2 или 0.2 (да, если перед точкой ничего нет, то там, по определению, стоит нуль);
+			-- 0.0434 (это даже меньше, чем 0.1) или 0.00434 (это ого-го как меньше, чем 0.1);
+			-- .45 (это меньше .5) и .55 (это больше .5);
+			-- 0 (нихрена не видно);
+			-- 1 - ничего с видимостью не меняется.
+			-- Короче, чем число после точки меньше (0.1<1.0), тем хуже они видят.
+			-- Но, не забывай, что число колеблется в зависимости от ситуации, поэтому - это всё усреднённые показатели.
+			System:Log(entity:GetName()..": ("..i.."), NewSightRangeMultiplier: "..entity.NewSightRangeMultiplier)
+		end
+	end
+end
+
+function Mission:Event_SightRange_1_Reset() -- Сброс.
+	local Mercs = {"MercCover19","MercCover22323","MercCover32222"} -- Те же имена.
+	for i,Merc in Mercs do
+		local entity = System:GetEntityByName(Merc)
+		if entity and entity.ai and entity.NewSightRangeMultiplier then
+			-- -- if entity.AI_GunOut==1 then -- Если оружие было извлечено... (сразу находится в руках или, - чаще всего, - тогда когда был замечен враг).
+			-- if strfind(strlower(entity.Behaviour.Name),"attack") -- Если сущность находится в одном из этих трёх состояний, значит что-то не так и по возвращении
+			-- or strfind(strlower(entity.Behaviour.Name),"alert") -- расстояние видимости, что было указано в редакторе, должно быть помножено на 2,
+			-- or strfind(strlower(entity.Behaviour.Name),"hunt") then -- так как в оригинале это значение множится, - именно так, - автоматически.
+				-- entity:ChangeAIParameter(AIPARAM_SIGHTRANGE,self.PropertiesInstance.sightrange*2)
+			-- else
+				-- entity:ChangeAIParameter(AIPARAM_SIGHTRANGE,self.PropertiesInstance.sightrange)
+			-- end
+			entity.NewSightRangeMultiplier = nil
+			System:Log(entity:GetName()..": ("..i.."), NewSightRangeMultiplier: ".."nil")
+		end
+	end
+end
