@@ -1,5 +1,5 @@
 --Gamestyler CIS edition v1.2 (Garbitos and Mixer)
-
+--hfcr
 --Gamestyler Tweakers
 Game:CreateVariable("gr_boatstyle",0,"NetSynch");
 --Gamestyler Vars
