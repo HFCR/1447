@@ -28,7 +28,7 @@ GameRules = {
 
 	player_death_pos = { x=0, y=0, z=0, xA=0, yA=0, zA=0 },
 
-	TimeRespawn=3,
+	TimeRespawn=10,
 	TimeDied=0,
 	bShowUnitHightlight=nil,			-- 1/nil (show a 3d object on top of every friendly unit)
 	fBullseyeDamageLevel =  20,		-- amount of damage until the
@@ -619,10 +619,17 @@ function GameRules:OnClientRequestRespawn( server_slot, requested_classid )
 
 	--System:LogToConsole("Clicked!");
 	--System:LogToConsole("time=".._time-self.TimeDied);
-	if (_time-self.TimeDied<self.TimeRespawn) then
-		--System:LogToConsole("time=".._time-self.TimeDied);
-		return
+	if self.TimeRespawn==0 or (_time-self.TimeDied<self.TimeRespawn) then -- От текущего времени (внутриигровой таймер в секундах, допустим 73; оно постоянно увеличивается) отнимается время когда игрок умер (на 69 секунде) и пока результат между ними (4 секунды, который увеличивается) будет меньше фиксированной цифры (10 секунд, это было указано в начале файла), будет выполняться всё, что внутри условия.
+		local intensity = (_time-self.TimeDied)*.1 -- Вот так вот таймер, многократно помогает плавно что-нибудь увеличивать/уменьшать.
+		Sound:SetGroupScale(SOUNDSCALE_DEAFNESS,1-intensity) -- Постепенно оглушить игрока, все звуки становятся тихими.
+		Hud:OnMiscDamage(1) -- Незначительное нанесение урона. Видимо, я оставлял для того чтобы эта хрень на следующей строчке вообще работала.
+		Hud:SetScreenDamageColor(intensity,0,0) -- Постепенно залить красным (RGB палитра же).
+		-- System:Log("intensity="..intensity..", time=".._time)
+		-- System:Log("time=".._time-self.TimeDied)
+		return -- Это не позволяет выполняться коду, что находится ниже.
 	end
+	Hud:OnMiscDamage(10000) -- Постоянно наносит урон и оставляет экран затемнённым.
+	Hud:SetScreenDamageColor(0,0,0) -- Чёрный.
 
 	-- be sure this is removed when the client connects or the
 	-- save menu appears
@@ -637,7 +644,10 @@ function GameRules:OnClientRequestRespawn( server_slot, requested_classid )
 	else
 		System:Log("Game:ShowSaveGameMenu() returned nil")
 	end
-
+	
+	-- Авто возрожение убрал потому, что если игрок сохранится через консоль командой /save_game и погибнет, то он возродится на той же, но уже зачищенной от врагов локации с полным боекомплектом.
+	do return end -- Не возрождаться.	
+	
 	if (server_slot.first_request) then
 
 		local player;
