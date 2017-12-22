@@ -95,7 +95,7 @@ Materials["mat_wood_heavy"] = {
 	mortar_hit = CommonEffects.common_mortar_hit,
 	smokegrenade_hit = CommonEffects.common_smokegrenade_hit,
 
-	grenade_hit = CommonEffects.common_grenade_hit,
+	grenade_hit = CommonEffects.common_grenade_hit_wood,
 	melee_punch = {
 		sounds = {
 			{"Sounds/Bullethits/wthin1.wav",SOUND_UNSCALABLE,185,5,30,{fRadius=10,fInterest=1,fThreat=0,},},

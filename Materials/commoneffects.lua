@@ -671,6 +671,12 @@ CommonEffects =
 			{"SOUNDS/items/grenade_hit.wav", SOUND_UNSCALABLE, 190, 5, 60},
 		},
 	},
+	
+	common_grenade_hit_wood = {
+		sounds = {
+			{"SOUNDS/items/grenade_hit_wood.wav", SOUND_UNSCALABLE, 190, 5, 60},
+		},
+	},
 
 
 

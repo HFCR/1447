@@ -21,6 +21,7 @@ Vector = {
 	ZoomSteps = { 2, 4 },	---------------------------------------------------
 	DoesFTBSniping = 1,
 	DrawFlare=1,
+	ZoomDeadSwitch = 1,
 
 	---------------------------------------------------
 	FireParams =

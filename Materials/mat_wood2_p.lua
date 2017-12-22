@@ -106,7 +106,7 @@ Materials["mat_wood2_p"] = {
 	mortar_hit = CommonEffects.common_mortar_hit,
 	smokegrenade_hit = CommonEffects.common_smokegrenade_hit,
 
-	grenade_hit = CommonEffects.common_grenade_hit,
+	grenade_hit = CommonEffects.common_grenade_hit_wood,
 
 -------------------------------------
 	player_walk = CommonEffects.player_wood_walk,

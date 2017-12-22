@@ -31,11 +31,11 @@ Falcon = {
 		animatedrun=1,
 		aim_offset={x=0.066,y=0.01,z=0.012},
 		AmmoType="Pistol",
-		silenced="Sounds/Weapons/De/deagle_silent.wav",
 		reload_time= 1.62,
 		fire_rate= 0.2,
 		distance= 500,
 		damage= 11,
+		silenced="Sounds/Weapons/De/Silent.wav",--	
 		damage_drop_per_meter= 0.008,
 		bullet_per_shot= 1,
 		bullets_per_clip=20,
@@ -58,9 +58,11 @@ Falcon = {
 		
 		FireSounds = {
 			"Sounds/Weapons/DE/de_shot.wav",
-			"Sounds/Weapons/DE/de_shot.wav",
-			"Sounds/Weapons/DE/de_shot.wav",
 		},
+		FireSoundsStereo = {
+		"Sounds/Weapons/DE/de_shot.wav",
+		},
+		
 		DrySound = "Sounds/Weapons/DE/dryfire.wav",
 		
 		ShellCases = {
