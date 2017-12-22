@@ -2123,10 +2123,15 @@ Player.Client =
 				end
 				if not Game:IsMultiplayer() then	
 					Hud:OnMiscDamage(10000);					
-					Hud:SetScreenDamageColor(0.9, 0.8, 0.8);
-					
+					-- Hud:SetScreenDamageColor(0.9, 0.8, 0.8);
+					Hud:SetScreenDamageColor(1,1,1) -- Я вижу свет в конце тоннеля!
 					System:SetScreenFx("ScreenFade",1);
-					System:SetScreenFxParamFloat("ScreenFade","ScreenFadeTime",GameRules.TimeRespawn*1.2);
+					-- System:SetScreenFxParamFloat("ScreenFade","ScreenFadeTime",GameRules.TimeRespawn*1.2);
+					if Game:ShowSaveGameMenu() then -- Если доступно меню, тогда...
+						System:SetScreenFxParamFloat("ScreenFade","ScreenFadeTime",GameRules.TimeRespawn+.35) -- Игра. Если x <= TimeRespawn, затенение исчезает перед тем как появится меню, если x > TimeRespawn, не успевает отобразиться hud в редакторе.
+					else
+						System:SetScreenFxParamFloat("ScreenFade","ScreenFadeTime",GameRules.TimeRespawn+.5) -- Редактор. +.5 - Идеально: интерфейс вновь появляется, не заметен переход между затемнением и цветом дамага.
+					end
 				else
 					if ClientStuff.lst_bgmsndid then
 						Hud.dtharea_id = {floor(ClientStuff.lst_bgmsndid[1]),ClientStuff.lst_bgmsndid[2]};
